@@ -1,0 +1,15 @@
+{
+    "name": "clonixdev/php-aeat-sii",
+    "description": "Paquete para el envío y consulta de facturas con AEAT SII de españa utilizando la versión V 1.1",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "ext-mbstring": "*",
+        "wsdltophp/packagebase": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ClonixDev\\AeatSii\\": "./src/"
+        }
+    }
+}
